@@ -1,3 +1,4 @@
+package lv0;
 
 public class 모음제거 {
 	public String solution(String my_string) {
