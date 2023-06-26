@@ -1,6 +1,6 @@
 package lv1;
 
-public class 서울에서김서방찾기 {
+class 서울에서김서방찾기 {
 	public String solution(String[] seoul) {
 		String answer ="";
 		for(int i=0;i<seoul.length;i++) {
