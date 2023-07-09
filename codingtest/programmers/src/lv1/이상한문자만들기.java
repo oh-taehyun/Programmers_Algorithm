@@ -2,7 +2,6 @@ package lv1;
 
 public class 이상한문자만들기 {
 	public String solution(String s) {
-		s="try hello world";
 		String answer="";
 		//1.공백 기준으로 문자 자르기
 		
