@@ -1,0 +1,1 @@
+SELECT animal_id, name, TO_CHAR(DATETIME, 'yyyy-mm-dd') FROM ANIMAL_INS ORDER BY animal_id;
