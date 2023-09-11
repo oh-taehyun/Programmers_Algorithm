@@ -1,0 +1,2 @@
+SELECT board_id, writer_id, title, price, CASE WHEN STATUS ='SALE' THEN '판매중' WHEN STATUS = 'RESERVED' THEN '예약중'
+ELSE '거래완료' END AS STATUS FROM used_goods_board WHERE to_char(CREATED_DATE, 'yyyy-mm-dd') = '2022-10-05' ORDER BY board_id desc;
