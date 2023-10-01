@@ -10,3 +10,4 @@ public class 덧셈식출력하기 {
 		System.out.println(a+" "+"+ "+b+" = "+(a+b));
 	}
 }
+ 
